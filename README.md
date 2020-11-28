@@ -1,19 +1,14 @@
 CONTENTS OF THIS FILE
 ---------------------
 
- * Introduction
- * Installation
- * Recommended modules
- * Installation
- * Configuration
- * Troubleshooting
- * FAQ
- * Maintainers
+ * INTRODUCTION
+ * INSTALLATION
+ * CONTRIBUTOR'S GUIDE
+ * LINK TO A LICENSE OF MY CODE
 
 INTRODUCTION
 ------------
 
-Current Maintainer: Morbus Iff <morbus@disobey.com>
 
 Trucks Draft is an CRUD, MVC app using Sinatra. This app is a custom app that is create to track a user's truck. It essentially is a basic Content Management System(CMS) using the tools that I have learned so far in the program.
 
@@ -52,5 +47,4 @@ https://github.com/nathanielgcowan/trucks_draft/blob/main/LICENSE
 
 
 
-# truck-draft-with-terminal-fix
 # truck-draft-with-terminal-fix
