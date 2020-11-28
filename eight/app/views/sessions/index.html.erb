@@ -1,0 +1,26 @@
+
+<ul>
+  <li><a href="/signup">Signup</a></li>
+  <li><a href="/login">Login</a></li>
+  <li><a href="/logout">Logout</a></li>
+  <li><a href="/trucks">Home</a></li>
+  <li><a href="/trucks/new">New Truck</a></li>
+</ul>
+
+<h1>Login</h1>
+
+<%= "Create an account so that you can log in" if @user && @user.errors.any? %>
+<form action="/sessions" method="POST">
+<form>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" />
+    </p>
+
+        <input type="submit" />
+
+</form> 
