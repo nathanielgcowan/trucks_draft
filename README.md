@@ -1,57 +1,54 @@
+CONTENTS OF THIS FILE
+---------------------
 
-|─ app
-│   ├── controllers
-│   │   └── application_controller.rb
-│   │   └── sessions_controller.rb
-│   │   └── trucks_controller.rb
-│   │   └── users_controller.rb
-│   ├── models
-│   │   └── session.rb
-│   │   └── truck.rb
-│   │   └── user.rb
-│   └── views
-│   │   └── sessions.rb
-│   │   |   └── edit.html.erb
-│   │   |   └── index.html.erb
-│   │   |   └── new.html.erb
-│   │   |   └── show.html.erb
-│   │   └── trucks.rb
-│   │   |   └── edit.html.erb
-│   │   |   └── index.html.erb
-│   │   |   └── new.html.erb
-│   │   |   └── show.html.erb
-│   │   └── users.rb
-│   │   |   └── edit.html.erb
-│   │   |   └── index.html.erb
-│   │   |   └── new.html.erb
-│   │   |   └── show.html.erb
-│       ├── layout.erb
-├── config
-│   ├── initializers
-│   └── environment.rb
-├── db
-│   └── migrate
-│   │   └── migrate
-│   │   |   └── 20201121024011_create_sessions.rb
-│   │   |   └── 2020112104558_create_users.rb
-│   │   |   └── 20201121024747_create_trucks.rb
-│   │   └── development.sqlite
-│   │   └── schema.rb
-│   │   └── test.sqlite
-└── lib
-└── public
-|   ├── images
-|   ├── javascripts
-|   └── stylesheets
-|       └── main.css
-├── lib
-│   └── .gitkeep
-└── spec
-|    ├── application_controller_spec.rb
-|   └── spec_helper.rb
-├── config.ru
-├── Gemfile
-├── Gemfile.lock
-├── Rakefile
-├── README.md
-├── spec.md# trucks_draft
+ * Introduction
+ * Installation
+ * Recommended modules
+ * Installation
+ * Configuration
+ * Troubleshooting
+ * FAQ
+ * Maintainers
+
+INTRODUCTION
+------------
+
+Current Maintainer: Morbus Iff <morbus@disobey.com>
+
+Trucks Draft is an CRUD, MVC app using Sinatra. This app is a custom app that is create to track a user's truck. It essentially is a basic Content Management System(CMS) using the tools that I have learned so far in the program.
+
+INSTALLATION
+------------
+
+The bot.module is not like other Drupal modules and requires a bit more
+effort than normal to get going. Unlike a regular Drupal page load, an
+IRC bot has to run forever and, for reasons best explained elsewhere, this
+entails running the bot through a shell, NOT through web browser access.
+
+1. This module REQUIRES Net_SmartIRC, a PHP class available from PEAR.
+   In most cases, you can simply run "pear install Net_SmartIRC".
+
+In terminal
+2. 
+    ```git clone https://github.com/nathanielgcowan/trucks_draft.git```
+
+3. 
+```bundle install```
+
+4.
+```cd trucks_draft```
+
+5.
+Open your editor of choice and you are ready to go!
+
+
+CONTRIBUTOR'S GUIDE
+-------------------
+#i'm testing to see if this reads first before i keep on writing
+
+LINK TO A LICENSE OF MY CODE
+----------------------------
+https://github.com/nathanielgcowan/trucks_draft/blob/main/LICENSE
+
+
+

@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
 
   # GET: /login
   get "/login" do
-    erb :"/sessions/index.html"
+    erb :"/users/index.html"
   end
 
   # POST: /sessions
