@@ -12,14 +12,14 @@
 <form action="/users" method="POST">
 <form>
     <p>
-        <label for="email">Email:</label>
-        <input type="text" name="email" id="email" />
+        <label for="email" >Email:</label>
+        <input type="text"  name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
     </p>
     <p>
-        <label for="password">Password:</label>
+        <label for="password" >Password:</label>
         <input type="text" name="password" id="password" />
     </p>
 
-        <input type="submit" />
+        <input type="submit" value="Submit Now!"/>
 
 </form> 

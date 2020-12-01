@@ -13,11 +13,3 @@
 <p>
     <a href="/trucks/<%= @truck.id %>/edit">Edit</a>
 </p>
-
-<p>
-    <form action="/trucks/<%= @truck.id %>" method="post">
-    <input id="hidden" type="hidden" name="_method" value="delete">
-    <input type="submit" value="delete">
-    </form>
-</p>
-
