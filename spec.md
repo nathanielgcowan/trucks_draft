@@ -18,11 +18,11 @@ belongs to does have a create,read, update, and destroy
     Answer: The belongs to does have a unique create, read, update, and destroy.
 - [x] Ensure that users can't modify content created by other users
     Answer: Needs work
-- [] Include user input validations
+- [x] Include user input validations
 does include input validationgs.
 - [x] BONUS - not required - Display validation failures to user with error message (example form URL e.g. /posts/new) 
 its. not required.
-- [] Your README.md includes a short description, install instructions, a contributors guide and a link to the license for your code
+- [X] Your README.md includes a short description [x], install instructions[x], a contributors guide [x] and a link to the license for your code[x]
     Anser: needs work.
 
 Confirm

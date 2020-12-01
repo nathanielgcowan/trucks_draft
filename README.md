@@ -1,10 +1,10 @@
-CONTENTS OF THIS FILE
----------------------
+CONTENTS
+--------
 
  * INTRODUCTION
  * INSTALLATION
  * CONTRIBUTOR'S GUIDE
- * LINK TO A LICENSE OF MY CODE
+ * LICENSE
 
 INTRODUCTION
 ------------
@@ -15,33 +15,36 @@ Trucks Draft is an CRUD, MVC app using Sinatra. This app is a custom app that is
 INSTALLATION
 ------------
 
-The bot.module is not like other Drupal modules and requires a bit more
-effort than normal to get going. Unlike a regular Drupal page load, an
-IRC bot has to run forever and, for reasons best explained elsewhere, this
-entails running the bot through a shell, NOT through web browser access.
-
-1. This module REQUIRES Net_SmartIRC, a PHP class available from PEAR.
-   In most cases, you can simply run "pear install Net_SmartIRC".
+We hope you are excited to use them gem. Follow the below steps to get this installed.
 
 In terminal
-2. 
+1. Open Terminal.
     ```git clone https://github.com/nathanielgcowan/trucks_draft.git```
 
-3. 
-```bundle install```
+2.  ```git clone https://github.com/nathanielgcowan/trucks_draft.git```
 
-4.
-```cd trucks_draft```
+3. ```cd trucks_draft```
 
-5.
-Open your editor of choice and you are ready to go!
+5. Open your editor of choice and you are ready to go!
 
 
 CONTRIBUTOR'S GUIDE
 -------------------
-#i'm testing to see if this reads first before i keep on writing
+We love feedback!
 
-LINK TO A LICENSE OF MY CODE
+We use Github to host code, show request and allow pull requests.
+
+Pull requests are used to change the code.
+
+To make a pull requests:
+1. Fork the repo
+2. Make a branch
+3. Ensure the code work
+4. Issue the pull request
+
+
+
+MIT LICENSE
 ----------------------------
 https://github.com/nathanielgcowan/trucks_draft/blob/main/LICENSE
 
