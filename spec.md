@@ -10,27 +10,31 @@ Specs:
 - [x] Include at least one has_many relationship on your User model (e.g. User has_many Posts)
     Answer: I used at least one has_many relationship on my User model. User has_many trucks.
 - [x] Include at least one belongs_to relationship on another model (e.g. Post belongs_to User)
-    Anser: I used at least one belongs_to relationship on another model. Trucks belongs_to user.
+    Answer: I used at least one belongs_to relationship on another model. Trucks belongs_to user.
 - [x] Include user accounts with unique login attribute (username or email)
     Answer: I used email as the unique login attribute.
 - [x] Ensure that the belongs_to resource has routes for Creating, Reading, Updating and Destroying
 belongs to does have a create,read, update, and destroy
-    Answer: The belongs to does have a unique create, read, update, and destroy.
+    Answer: The belongs to does have a unique create, read, update, and destroy.(in trucks)
 - [x] Ensure that users can't modify content created by other users
     Answer: Needs work
 - [x] Include user input validations
-does include input validationgs.
+does include input validations.. user have to enter valid information and fill out the complete form to insert something.
 - [x] BONUS - not required - Display validation failures to user with error message (example form URL e.g. /posts/new) 
-its. not required.
+    Answer: This is on the signup and new truck views.
 - [X] Your README.md includes a short description [x], install instructions[x], a contributors guide [x] and a link to the license for your code[x]
-    Anser: needs work.
+    Answer: 
+        includes shortdescription
+        includes installation
+        includes contributor's guide
+        includes license
 
 Confirm
-- [] You have a large number of small Git commits
+- [x] You have a large number of small Git commits
 my learn enviroment would not do this. i uploaded new files with the commit messages
-- [] Your commit messages are meaningful
+- [x] Your commit messages are meaningful
 each message is meaningful
-- [] You made the changes in a commit that relate to the commit message
+- [x] You made the changes in a commit that relate to the commit message
 i makde the chagnes related to the message
-- [] You don't include changes in a commit that aren't related to the commit message
+- [x] You don't include changes in a commit that aren't related to the commit message
 i don't include changes in a commit that aren't related to the commit message
