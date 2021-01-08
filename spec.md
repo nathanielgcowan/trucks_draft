@@ -17,7 +17,7 @@ Specs:
 belongs to does have a create,read, update, and destroy
     Answer: The belongs to does have a unique create, read, update, and destroy.(in trucks)
 - [x] Ensure that users can't modify content created by other users
-    Answer: Needs work
+    Answer: This is done.
 - [x] Include user input validations
 does include input validations.. user have to enter valid information and fill out the complete form to insert something.
 - [x] BONUS - not required - Display validation failures to user with error message (example form URL e.g. /posts/new) 
@@ -35,6 +35,6 @@ my learn enviroment would not do this. i uploaded new files with the commit mess
 - [x] Your commit messages are meaningful
 each message is meaningful
 - [x] You made the changes in a commit that relate to the commit message
-i makde the chagnes related to the message
+i made the changes related to the message
 - [x] You don't include changes in a commit that aren't related to the commit message
-i don't include changes in a commit that aren't related to the commit message
+i didn't include changes in a commit that aren't related to the commit message
